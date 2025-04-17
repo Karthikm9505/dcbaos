@@ -20,9 +20,9 @@ int main()
     for(int i = 0; i < resources; i++)
     {
         int total;
-        printf("Enter instances of resource class %d: ", i+1);
+        printf("Enter instances of resource class %d ", i+1);
         scanf("%d", &total);
-        printf("Enter free vectors of resources class %d (resources available): ", i+1);
+        printf("Enter free vectors of resources class %d  ", i+1);
         scanf("%d", &available[i]);
     }
     printf("Enter the current allocation matrix\n");
